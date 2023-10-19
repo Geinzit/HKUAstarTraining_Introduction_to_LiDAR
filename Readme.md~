@@ -1,0 +1,73 @@
+# Introdution to LiDAR
+*Maodian Huang*
+
+## What is LiDAR?
+> What do you get when you add wings to a LiDAR scanner?
+
+> "GLiDAR!"
+
+**LiDAR**: Light Detection and Ranging
+
+- a remote sensing technology that uses laser light to measure distances and create high-resolution 3D maps or point clouds of the surrounding environment.
+
+- distances are calculated by first having a LiDAR system emit laser pulses towards an area. When the laser pulses encounter objects in the environment, they reflect back towards the LiDAR sensor.
+
+![](/Img/lidar_working.png)
+
+### What are point clouds?
+> They're like clouds, but made out of points LMAO!
+
+**Point Clouds**: Collections of 3D data points that represent the spiral coordinates of objects or surfaces in a three-dimensional space. Each point in a point cloud is (usually) defined by its X, Y, Z coordinates, capturing the position of a specific location in the envirionment.
+
+![](/Img/PointCloud1.jpg)
+
+### Advantages of LiDAR
+
+- High Precision and Accuracy
+
+- All-Weather Capability
+
+- Long Distance
+
+- etc.
+
+### Application of LiDAR
+
+- **Autonomous Vehicles**: perceive the surrounding vehicles, detect obstacles, assist navigation.
+
+- **Mapping and Surveying**: create detailed topographic maps, digital models(building, landscapes)
+
+- **Remote sensing**: study vegetation, monitor forest health etc
+
+- etc.
+
+- **MOST IMPORTANTLY, widely used in localization and navigation algorithms for robots competing in the Robomaster competitions**
+
+## How does LiDAR work?
+
+1. get a supported hardware
+2. preprocessing
+3. labeling, segmentation and detection
+4. calibration and sensor fusion
+5. navigation and mapping
+
+## How does LiDAR, really, work?
+> All of this just works! &nbsp; &nbsp; &nbsp; - Todd Howard
+
+### A Quick Taste
+
+![](/Img/PointCloud2.jpg)
+
+Below is an example demonstration
+
+We'll be using a Livox Mid 70 LiDAR sensor for demonstration.
+
+### Connecting to the Computing Device
+
+### Connect with ROS, with a driver package
+
+### Run the localization & navigation algorithm 
+
+### Profit
+
+
